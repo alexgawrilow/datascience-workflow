@@ -1,0 +1,30 @@
+# Cached and compiled files
+*.pyc
+__pycache__/
+.pytest_cache/
+
+# built distributions
+dist/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+!*template.ipynb
+!titanic*.ipynb
+
+# lock files
+poetry.lock
+
+# Environment variables and virtual environments
+*env/
+
+# Data
+data/
+*.csv
+
+
+# Editor-data
+.vscode/
+
+# System-data
+.DS_Store
